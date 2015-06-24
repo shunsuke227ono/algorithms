@@ -1,5 +1,5 @@
 
-solutions for problems from programing competitions
+Solutions for problems from programing competitions.
 
 ## Data Structures
 
