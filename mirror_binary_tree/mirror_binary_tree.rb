@@ -1,3 +1,6 @@
+##
+# Question: Given a binary tree, how do you get its mirrored tree?
+
 require './binary_tree'
 
 class MirrorBinaryTree < BinaryTree
@@ -8,7 +11,7 @@ class MirrorBinaryTree < BinaryTree
   def root
     @nodes[0]
   end
-  def mirror(current_node=@nodes[0])
+  def mirror(current_node=root)
     current_node.swap
     mirror(current_node.left) unless current_node.left.nil?
     mirror(current_node.right) unless current_node.right.nil?
@@ -40,8 +43,6 @@ while str = STDIN.gets
 end
 
 binary_tree = MirrorBinaryTree.new(array)
-p binary_tree.node_values
 binary_tree.mirror
 binary_tree.set_array_of_nodes
 p binary_tree.node_values
-
