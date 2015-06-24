@@ -5,6 +5,6 @@ Solutions for problems from programing competitions.
 
 ## Algorithms
 
-### Dynamic Programmings
+### Dynamic Programming
 
 - CoinChange.rb
