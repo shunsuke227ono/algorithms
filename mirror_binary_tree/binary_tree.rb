@@ -1,5 +1,6 @@
 class BinaryTree
   # suppose input is an array of breadth-first traversal representation of tree
+  # FIXME Dont have to define @nodes because I already have Node classs.
   def initialize(array)
     @nodes = array.map{ |x| Node.new(x) }
     set_children
