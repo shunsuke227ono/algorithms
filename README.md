@@ -1,5 +1,5 @@
 
-Solutions for problems from programing competitions.
+Solutions for problems from programing competitions. Each source code includes questions as well.
 
 ## Data Structures
 
